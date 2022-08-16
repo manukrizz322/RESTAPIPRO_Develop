@@ -1,0 +1,34 @@
+Step1:Open Terminal
+Step2:$pipenv shell(if not continue 3rd step)
+Step3:$pip list
+Step4:$pip install pipenv
+Step5:$pipenv shell
+Step6:Go to View->Command Pallete->Python Select Interpreter->Select your workspace project
+
+Step7:$pip install FLask
+Step8:$pip install Flask-SQLALchemy
+STep9:$pip install Flask-marshmallow
+STep9:$pip install marshmallow-SQLALchemy
+
+from main import db
+db.create_all()
+
+pip uninstall marshmallow-sqlalchemy
+pip install marshmallow-sqlalchemy==0.22.3
+
+Click==7.0
+Flask==1.1.1
+Flask-Cors==3.0.8
+Flask-Login==0.5.0
+flask-marshmallow==0.9.0
+Flask-SQLAlchemy==2.4.1
+Flask-WTF==0.14.3
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+marshmallow==2.20.5
+marshmallow-sqlalchemy==0.18.0
+six==1.14.0
+SQLAlchemy==1.3.13
+Werkzeug==1.0.0
+WTForms==2.2.1
